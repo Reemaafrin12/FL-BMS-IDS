@@ -1,0 +1,45 @@
+{
+  "input_file": "power_consumption_EVSE-B-PowerCombined.csv",
+  "class_weights": {
+    "attack": 0.5711497498390053,
+    "benign": 4.013715797535334
+  },
+  "clients": {
+    "client_1": {
+      "file": "client_1.csv",
+      "attack_groups": [
+        "recon"
+      ],
+      "benign_rows_from_none": 4788,
+      "rows": 38106,
+      "label_distribution": {
+        "attack": 33318,
+        "benign": 4788
+      }
+    },
+    "client_2": {
+      "file": "client_2.csv",
+      "attack_groups": [
+        "host-attack"
+      ],
+      "benign_rows_from_none": 4788,
+      "rows": 37521,
+      "label_distribution": {
+        "attack": 32733,
+        "benign": 4788
+      }
+    },
+    "client_3": {
+      "file": "client_3.csv",
+      "attack_groups": [
+        "DoS"
+      ],
+      "benign_rows_from_none": 4787,
+      "rows": 39671,
+      "label_distribution": {
+        "attack": 34884,
+        "benign": 4787
+      }
+    }
+  }
+}

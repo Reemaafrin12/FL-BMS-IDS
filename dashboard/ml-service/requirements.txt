@@ -1,0 +1,6 @@
+# Run: uvicorn app:app --reload --port 8000
+fastapi
+uvicorn
+scikit-learn
+pandas
+joblib
